@@ -2,13 +2,13 @@
  * This file provides css styles.
  */
 body, html {
-	background-color: #3b4b54;
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light",
 		"Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	color: #ffffff;
+	background-color: #088A68;
 }
 
 a {
@@ -21,11 +21,15 @@ a:hover {
 }
 
 .newappIcon {
-	padding-top: 10%;
+	padding-top: 5%;
 	display: block;
 	margin: 0 auto;
-	padding-bottom: 2em;
+	padding-bottom: 3%;
 	max-width: 200px;
+}
+
+.newappIcon:hover{
+	max-width: 210px;
 }
 
 h1 {
@@ -33,19 +37,15 @@ h1 {
 	font-size: 2em;
 }
 
-.leftHalf {
-	float: left;
-	background-color: #26343f;
-	width: 45%;
-	height: 100%;
+.bang{
+	font-family: 'Bangers', cursive;
+	color: #ffffff;
 }
 
-.rightHalf {
-	float: right;
-	width: 55%;
-	background-color: #313f4a;
-	height: 100%;
-	overflow: auto;
+.indie{
+	font-family: "Josefin Sans",sans-serif;
+font-size: 20px;
+letter-spacing: 1px;
 }
 
 .description {
@@ -53,33 +53,7 @@ h1 {
 	padding-right: 50px;
 	text-align: center;
 	font-size: 1.2em;
-}
-
-.blue {
-	color: #00aed1;
-}
-
-table {
-	table-layout: fixed;
-	width: 800px;
-	margin: 0 auto;
-	word-wrap: break-word;
-	padding-top: 10%;
-}
-
-th {
-	border-bottom: 1px solid #000;
-}
-
-th, td {
-	text-align: left;
-	padding: 2px 20px;
-}
-
-.env-var {
-	text-align: right;
-	border-right: 1px solid #000;
-	width: 30%;
+	color: #ffffff;
 }
 
 pre {
